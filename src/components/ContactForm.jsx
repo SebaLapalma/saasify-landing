@@ -53,21 +53,21 @@ export default function ContactForm() {
             name="name"
             required
             placeholder="Tu nombre"
-            className="border rounded-xl px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border rounded-xl px-4 py-3 w-full text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <input
             type="email"
             name="email"
             required
             placeholder="Tu correo"
-            className="border rounded-xl px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border rounded-xl px-4 py-3 w-full text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           />
           <textarea
             name="message"
             required
             placeholder="Tu mensaje"
             rows={5}
-            className="border rounded-xl px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="border rounded-xl px-4 py-3 w-full text-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
           ></textarea>
 
           <button
